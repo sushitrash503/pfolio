@@ -1,0 +1,126 @@
+---
+
+---
+<h1> 
+    <svg class="task" width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-checklist"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.615 20h-2.615a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8" /><path d="M14 19l2 2l4 -4" /><path d="M9 8h4" /><path d="M9 12h2" /></svg>
+    Proyectos Finalizados
+</h1>
+<h3>
+    Estos son los proyectos mas importantes personalmente, puedes verlos dandole click.
+</h3>
+<div class="cards">
+<div class="card">
+    <img src="/src/imagenes/store-imagen.png" alt="Imagen de una pagina web de suppercel">
+    <div class="card-content">
+        <h2>Clon de pagina web de compras</h2>
+        <p>Pagina creada como proyecto personal cuyo objetivo es demostrar conocimientos HTMl y CSS</p>
+        <a href="https://dcerritos.netlify.app/" class="btn">Ir a pagina</a>
+    </div>
+</div>
+<div class="card">
+    <img src="/src/imagenes/store-imagen.png" alt="Imagen de una pagina web de suppercel">
+    <div class="card-content">
+        <h2>Clon de pagina web de compras</h2>
+        <p>Pagina creada como proyecto personal cuyo objetivo es demostrar conocimientos HTMl y CSS</p>
+        <a href="#" class="btn">Ir a pagina</a>
+    </div>
+</div>
+<div class="card">
+    <img src="/src/imagenes/store-imagen.png" alt="Imagen de una pagina web de suppercel">
+    <div class="card-content">
+        <h2>Clon de pagina web de compras</h2>
+        <p>Pagina creada como proyecto personal cuyo objetivo es demostrar conocimientos HTMl y CSS</p>
+        <a href="#" class="btn">Ir a pagina</a>
+    </div>
+</div>
+
+<style>
+.cards{
+    display: flex;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin-right: 20px; /* Añadimos margen a la derecha de cada tarjeta */
+    margin-bottom: 20px; /* Opcional: Añadimos margen abajo de cada tarjeta */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición suave en la transformación y sombra al hacer hover */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumentamos la sombra al hacer hover */
+    transform: scale(1.05); /* Aumentamos ligeramente el tamaño de la tarjeta al hacer hover */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Añadimos bordes redondeados solo arriba */
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    font-size: 20px; /* Reducimos un poco el tamaño del título */
+    color: #333; /* Cambiamos el color del título */
+}
+
+.card-content p {
+    margin-bottom: 20px;
+    font-size: 14px; /* Reducimos un poco el tamaño del texto */
+    color: #666; /* Cambiamos el color del texto */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Transición suave en el color de fondo al hacer hover */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cambiamos el color de fondo al hacer hover */
+}
+h1{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 45px;
+    display: flex;
+}
+.task{
+    margin: 7px;
+}
+@media screen and (max-width: 768px) {
+    .cards {
+        width: 100%; /* La tarjeta ocupará todo el ancho de la pantalla */
+        margin-right: 0; /* Eliminamos el margen derecho */
+        display: table-row;
+    }
+    .card{
+        margin-left: 45px;
+        margin-bottom: 45px;
+    }
+}
+h1{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 45px;
+    display: flex;
+}
+h3{
+    color: #007bff;
+    margin-top: -50px;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+</style>
